@@ -45,14 +45,14 @@ venv.bak/
 *.ipynb
 
 # PyTorch
-*.pth
-*.pt
-*.ckpt
+# *.pth  # Commented out to allow model files
+# *.pt   # Commented out to allow model files
+# *.ckpt # Commented out to allow model files
 checkpoint/
 checkpoints/
 
 # ONNX Models
-*.onnx
+# *.onnx  # Commented out to allow model files
 
 # Logs
 logs/
