@@ -286,31 +286,22 @@ Fabgaurd-AI/
 
 | Metric | Score |
 |--------|-------|
-| **Accuracy** | ~95% |
-| **Macro F1-Score** | ~94% |
-| **Model Size** | ~21 MB |
-| **Inference Time** | ~45ms (GPU) |
+| **Accuracy** | ~87% |
 | **Parameters** | ~5.3M |
 
 ### Student Model (MobileNetV3-Small)
 
 | Metric | Score |
 |--------|-------|
-| **Accuracy** | ~92% |
-| **Macro F1-Score** | ~90% |
-| **Model Size** | ~9 MB |
-| **Inference Time** | ~15ms (GPU) |
+| **Accuracy** | ~85% |
 | **Parameters** | ~2.5M |
 
-### Quantized Model (INT8)
+### ONNX Quantized Model (INT8)
 
 | Metric | Score |
 |--------|-------|
-| **Accuracy** | ~90% |
-| **Macro F1-Score** | ~88% |
-| **Model Size** | ~2.3 MB |
-| **Inference Time** | ~8ms (CPU) |
-| **Speedup** | 4-6x over FP32 |
+| **Accuracy** | ~85% |
+| **Model Size** | ~1.6 MB |
 
 *Note: Performance metrics may vary based on dataset and hardware*
 
